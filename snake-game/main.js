@@ -124,5 +124,3 @@ document.addEventListener('keydown', function (event) {
     direction = 'down';
   }
 });
-
-// MoveSnake

@@ -126,3 +126,5 @@ document.addEventListener('keydown', function (event) {
 });
 
 //I was here from moveSnake branch
+
+// Another comment for testing 

@@ -124,3 +124,5 @@ document.addEventListener('keydown', function (event) {
     direction = 'down';
   }
 });
+
+//I was here from moveSnake branch

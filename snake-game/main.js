@@ -1,8 +1,6 @@
 import './style.css';
 
 class Table {
-  rows;
-  columns;
   tableNode;
 
   constructor(rows, columns) {
@@ -108,11 +106,11 @@ let gameBoard = new GameBoard(20, 20);
 let div = document.getElementById('table');
 gameBoard.table.initTableNode();
 div.append(gameBoard.table.tableNode);
-// gameBoard.gameLoop();
+gameBoard.gameLoop();
 
-window.setInterval(function () {
-  gameBoard.gameLoop();
-}, 250);
+// window.setInterval(function () {
+//   gameBoard.gameLoop();
+// }, 250);
 
 let direction = 'right';
 document.addEventListener('keydown', function (event) {
